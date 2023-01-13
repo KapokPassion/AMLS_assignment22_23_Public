@@ -209,6 +209,6 @@ def run():
     
     model_train = train_model(model_conv, criterion, optimizer_conv, exp_lr_scheduler, num_epochs=30)
     
-    torch.save(model_train, 'b2model.pkl')
+    torch.save(model_train, r'B2\b2model.pkl')
     
     draw()

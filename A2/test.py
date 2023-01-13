@@ -68,7 +68,7 @@ def visualize(data, label, pred):
 def self_dataset():
     device = torch.device('cpu')
     global confusion_matrix
-    model_test = torch.load(r'a2model.pkl', map_location='cpu')
+    model_test = torch.load(r'A2\a2model.pkl', map_location='cpu')
     model_test.eval()
 
     trans = T.Compose([

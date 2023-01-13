@@ -17,6 +17,9 @@ import A2.test
 import B1.test
 import B2.test
 
+#training step
+# if models had existed in each folder, you can skip the training step.
+# models see the OneDrive link in my report
 print('A1 training start')
 A1.train.run()
 print('A2 training start')
@@ -26,6 +29,7 @@ B1.train.run()
 print('B2 training start')
 B2.train.run()
 
+#testing step
 print('A1 testing start')
 A1.test.run()
 print('A2 testing start')

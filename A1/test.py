@@ -66,7 +66,7 @@ def visualize(data, label, pred):
 def self_dataset():
     device = torch.device('cpu')
     global confusion_matrix
-    model_test = torch.load(r'a1model.pkl', map_location='cpu')
+    model_test = torch.load(r'A1\a1model.pkl', map_location='cpu')
 
     #for GoogLeNet
 #     model_test = GoogLeNet(num_classes=2, aux_logits=False)

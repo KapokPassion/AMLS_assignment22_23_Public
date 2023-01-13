@@ -27,3 +27,17 @@ python main.py
 ```
 
 After execute the code, four models will start training, and after that the models will be tested one by one. You're supposed to close some matplotlib windows when executing to keep it going run.
+
+## How to get pre-trained models:
+
+[AMLS_models-KapokPassion](https://liveuclac-my.sharepoint.com/:f:/g/personal/uceerz2_ucl_ac_uk/EsnlqUjz_F5LqtWQtt7bkmkBGdFYccErVa8scgndDTraqA?e=YBI1b3)
+
+Put each model to its folder
+
+a1model.pkl → folder 'A1'
+
+a2model.pkl → folder 'A2'
+
+b1model.pkl → folder 'B1'
+
+b2model.pkl → folder 'B2'
