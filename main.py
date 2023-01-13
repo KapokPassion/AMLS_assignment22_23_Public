@@ -18,7 +18,7 @@ import B1.test
 import B2.test
 
 #training step
-# if models had existed in each folder, you can skip the training step.
+# if models had existed in each folder, you can comment out these training code to skip the training step.
 # models see the OneDrive link in my report
 print('A1 training start')
 A1.train.run()
