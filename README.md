@@ -28,6 +28,8 @@ python main.py
 
 After execute the code, four models will start training, and after that the models will be tested one by one. You're supposed to close some matplotlib windows when executing to keep it going run.
 
+You can skip training step by downloading pre-trained models on my OneDrive. If you do that, please comment the training code. See in main.py.
+
 ## How to get pre-trained models:
 
 [AMLS_models-KapokPassion](https://liveuclac-my.sharepoint.com/:f:/g/personal/uceerz2_ucl_ac_uk/EsnlqUjz_F5LqtWQtt7bkmkBGdFYccErVa8scgndDTraqA?e=YBI1b3)
